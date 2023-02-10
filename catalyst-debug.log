@@ -1,0 +1,31 @@
+[debug] [2023-02-10T08:12:56.158Z] : 
+[debug] [2023-02-10T08:12:56.159Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T08:12:56.160Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\HARISH JAYARAJ\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-10T08:12:56.161Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T08:12:56.161Z] : Platform:     win32
+[debug] [2023-02-10T08:12:56.162Z] : Node Version: v18.14.0
+[debug] [2023-02-10T08:12:56.163Z] : Time:         Fri Feb 10 2023 13:42:56 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T08:12:56.164Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T08:12:56.164Z] : 
+[debug] [2023-02-10T08:12:57.278Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T08:12:57.279Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T08:12:57.294Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/13267000000004873 
+
+[debug] [2023-02-10T08:12:58.307Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 08:12:57 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=7ffad47a-4cee-4665-9acc-3478f4b3282e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7ffad47a-4cee-4665-9acc-3478f4b3282e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T08:12:58.321Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/13267000000004873/environment 
+
+[debug] [2023-02-10T08:12:59.201Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 08:12:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=eb1f37b8-477a-4c87-befb-11836e19b546;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=eb1f37b8-477a-4c87-befb-11836e19b546;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T08:13:02.439Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/13267000000004873/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-10T08:13:03.385Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 08:13:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=9f23ef2f-43c1-4913-a5d1-59d5611f3973;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9f23ef2f-43c1-4913-a5d1-59d5611f3973;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T08:13:03.396Z] : unknown eol undefined hence skipping check
+[warn] [2023-02-10T08:13:07.839Z] : ‼ skipping serve of function [sarahForm] since javac version is above the compatible version
+[warn] [2023-02-10T08:13:07.842Z] : ‼ functions: No targets are ready to be served in local
+[info] [2023-02-10T08:13:08.636Z] : i client[sarjava]: URL : http://localhost:3000/app/
