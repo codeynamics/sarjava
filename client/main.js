@@ -16,3 +16,8 @@ $(document).ready(function(){
 });
 var values = document.getElementById("fname").value;
 console.log(values);
+$(document).ready(function () {
+            $("#setBtnID").click(function () {
+                $("input:text").val("Hello World!");
+            });
+        });
