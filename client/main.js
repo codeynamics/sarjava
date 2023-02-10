@@ -9,4 +9,5 @@ $.ajax({
     alert(error);
   }
 });
-}
+var value = document.getElementById("fname").value;
+console.log(value);
