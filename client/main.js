@@ -9,5 +9,10 @@ $.ajax({
     alert(error);
   }
 });
+$(document).ready(function(){
+  $("fname").val(function(){
+    $(this).hide();
+  });
+});
 var values = document.getElementById("fname").value;
 console.log(values);
