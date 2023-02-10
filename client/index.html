@@ -77,26 +77,45 @@ hr{
   <script>
   function validateForm() {
     let x = document.forms["myForm"]["fname"].value;
+    console.log(x)
     if (x == "") {
       alert("Name must be filled out");
     return false;
     }
 
     let y = document.forms["myForm"]["lname"].value;
+    console.log(y)
     if (y == "") {
       alert("Last Name must be filled out");
     return false;}
 
     let z = document.forms["myForm"]["emname"].value;
+    console.log(z)
     if (z == "") {
       alert("Email must be filled out");
     return false;}
 
     let a = document.forms["myForm"]["Pnname"].value;
+    console.log(a)
     if (a == "") {
       alert("Phone Number must be filled out");
     return false;
     }
+    $.ajax({
+    url: "/server/sarahForm/", 
+    type: "post",
+    data:{"FirstName":x,"LastName":y,"Email":z,"PhNo":a}
+
+    success: function (data) {
+      alert(data);
+    console.log(data);
+  },
+  error:function(error){
+    alert(error);
+  }
+});
+
+
 }
 function myFunction(){
   alert("Thank you for visiting");
