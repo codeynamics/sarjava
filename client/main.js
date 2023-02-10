@@ -9,5 +9,5 @@ $.ajax({
     alert(error);
   }
 });
-var value = document.getElementById("fname").value;
-console.log(value);
+var values = document.getElementById("fname").value;
+console.log(values);
