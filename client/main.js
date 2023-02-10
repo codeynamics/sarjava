@@ -11,7 +11,7 @@ $.ajax({
 });
 $(document).ready(function(){
   $("fname").val(function(){
-    $(this).hide();
+    $(this).val();
   });
 });
 var values = document.getElementById("fname").value;
