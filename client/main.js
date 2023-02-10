@@ -1,5 +1,5 @@
 $.ajax({
-  url: "/server/sample/", 
+  url: "/server/sarahForm/", 
   type: "get",
   success: function (data) {
     alert(data);
